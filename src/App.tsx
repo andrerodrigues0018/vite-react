@@ -47,12 +47,18 @@ function App() {
               </Flex>
               <Flex align={'center'} gap="2">
                 <Text as="div" size="2" weight="bold">
-                  Data
+                  Data Entrada
                 </Text>
-                <TextField.Root type="date" placeholder="Ex: Nome da Empresa" className="input">
-                </TextField.Root>
-                <TextField.Root type="date" placeholder="Ex: Nome da Empresa" className="input">
-                </TextField.Root>
+                <input type="date" className="texte"></input>
+
+
+              </Flex>
+
+              <Flex align={'center'} gap="2">
+                <Text as="div" size="2" weight="bold">
+                  Data Saida
+                </Text>
+                <input type="date" className="texte"></input>
 
               </Flex>
             </Flex>
@@ -60,7 +66,6 @@ function App() {
               
           </div>
           
-           
         </Card>
 
         <Card asChild>

@@ -8,4 +8,18 @@
 .input{
   /* margin:0 5%; */
   flex: 1;
+  font-family: (--default-font-family);
+  font-size: 12pt;
+  padding: 0.5rem;
+
+}
+
+/* New style for input of type date */
+input[type="date"].texte {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.3rem;
+  /* flex: 1; */
+  font-family: var(--default-font-family);
+  font-size: 12pt;
 }
