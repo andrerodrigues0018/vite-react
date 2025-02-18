@@ -4,6 +4,7 @@ import {  Card, Text, Separator, Heading, Flex, TextField } from "@radix-ui/them
 import "@radix-ui/themes/styles.css";
 import "./App.css"
 import {  ArrowRightIcon, FileTextIcon } from "@radix-ui/react-icons";
+import { DncTag } from "@escola-dnc/dnc-design-system";
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -80,7 +81,8 @@ function App() {
         </Card>
         
       </Flex>
-     
+      <DncTag text="aa"/>
+      
     </>
   )
 }
