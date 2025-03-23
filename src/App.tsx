@@ -5,8 +5,10 @@ import "@radix-ui/themes/styles.css";
 import "./App.css"
 import {  ArrowRightIcon, FileTextIcon } from "@radix-ui/react-icons";
 import { DncTag } from "@escola-dnc/dnc-design-system";
+
 function App() {
   // const [count, setCount] = useState(0)
+  console.log("aaa")
 
   // const sendMessage = () => {
   //   window.parent.postMessage(
