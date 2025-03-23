@@ -9,7 +9,7 @@ import { DncTag } from "@escola-dnc/dnc-design-system";
 function App() {
   // const [count, setCount] = useState(0)
   console.log("aaa")
-
+  console.log("bbb")
   // const sendMessage = () => {
   //   window.parent.postMessage(
   //     { name: 'conclude', data: 'Custom data passed to the typebot variable' },
